@@ -8,8 +8,8 @@ const Travel = ({ destination, country, photo, distance}) => (
     />
     <figcaption>
       <blocktravel>{destination}</blocktravel>
-      <cite>{country}</cite>
-      <cite>{distance}</cite>
+      <p>{country}</p>
+      <p>{distance}</p>
     </figcaption>
   </figure>
 );
