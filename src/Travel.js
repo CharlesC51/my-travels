@@ -1,15 +1,15 @@
 import React from "react";
 
-const Travel = ({ destination, country, photo, distance}) => (
+const Travel = ({ destination, country, image, distance}) => (
   <figure>
     <img
-      src={photo}
+      src={image}
       alt={destination}
     />
     <figcaption>
-      <blocktravel>{destination}</blocktravel>
-      <cite>{country}</cite>
-      <cite>{distance}</cite>
+      <p>{destination}</p>
+      <p>{country}</p>
+      <p>{distance}</p>
     </figcaption>
   </figure>
 );
